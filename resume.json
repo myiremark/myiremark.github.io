@@ -37,7 +37,6 @@
         "url": "https://myire.com",
         "startDate": "2015",
         "endDate": "Present",
-        "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
         "highlights": [
           "Architected, developed, and contracted secure HIPAA compliant private cloud. Procured hardware, contracted, and deployed for multiple enterprise biopharmaceutical clients.",
           "Deployed tamper proof logging layer ",
@@ -58,7 +57,6 @@
         "url": "https://cvmri.northwestern.edu/research/",
         "startDate": "2013",
         "endDate": "2014",
-        "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
         "highlights": []
       }
     ],
@@ -114,6 +112,13 @@
       
     ],
     "publications": [
+        {
+          "name": "MyIRE in 90 Seconds explained by Founder Mark Graves",
+          "publisher": "MyIRE, Inc.",
+          "releaseDate": "2020-04-25",
+          "url": "https://www.youtube.com/watch?v=sEI-UADZjuk",
+          "summary": "Hear about the history of MyIRE's founder Mark Graves and the Big Picture of how together we can exponentially accelerate the rate of scientific progress and enable anyone in the world to participate by putting their brilliance and processing power into a network of reproducible research for others to safely use and build on."
+        },
       {
         "name": "MYR - The Reproducible Research Token",
         "publisher": "National Academy of Sciences",
@@ -124,16 +129,23 @@
       {
         "name": " What does astrophysics have to do with psychiatry?",
         "publisher": "HDF Group",
-        "releaseDate": "2020-03-24",
+        "releaseDate": "2019-02-12",
         "url": "https://www.hdfgroup.org/2019/01/what-does-astrophysics-have-to-do-with-psychiatry/",
-        "summary": "A reproducibility crisis afflicts a wide range of scientific and social-scientific disciplines, from epidemiology to social psychology. Many supposedly scientific results cannot be reproduced, because of improper use of statistics, arbitrary research techniques, lack of accountability, political groupthink, and a scientific culture biased toward producing positive results. The report includes a series of policy recommendations, scientific and political, for alleviating the reproducibility crisis."
+        "summary": "With MyIRE and HDF, everyone from a doctor in a small-town office to big data genetics researchers can work together to find new and powerful insights across data sets using a common set of tools – and do so in a repeatable way. And, because of HDF5, any user—whether large or small—is powered by the same technology used by CERN and NASA."
       },
       {
         "name": "Building Blocks of Rapidly Iterable, Reproducible Clinical Trials",
         "publisher": "FDA CBER Group",
         "releaseDate": "2018-05-01",
         "url": "https://myire.com/public/static/downloads/MyIRE_FDA_Presentation.pdf",
-        "summary": "Easy to use tools are revolutionizing medical innovation, but the 'telephone game of research software tools' has implications on participant privacy and scientific integrity. Increasing expectations for privacy and integrity can be achieved by harnessing the power of existing open technologies. MyIRE will present strategies for successful adoption of open technologies and case studies of building blocks for rapidly iterable, reproducible clinical trials. "
+        "summary": "Easy to use tools are revolutionizing medical innovation, but the 'telephone game of research software tools' has implications on participant privacy and scientific integrity. Increasing expectations for privacy and integrity can be achieved by harnessing the power of existing open technologies. MyIRE presented strategies for successful adoption of open technologies and case studies of building blocks for rapidly iterable, reproducible clinical trials. "
+      },
+      {
+        "name": "What is MyIRE? Data without Bias.",
+        "publisher": "Average Black Girl",
+        "releaseDate": "2018-03",
+        "url": "https://www.youtube.com/watch?v=NGj71CZhTg0",
+        "summary": "What is MyIRE? My Integrated Research Environment. Have you ever wanted to look at data without worrying about bias playing a factor?"
       },
       {
         "name": "Blockchain in Clinical Trials Forum",
@@ -141,6 +153,20 @@
         "releaseDate": "2018-03",
         "url": "https://blockchain.ieee.org/standards/clinicaltrialsforum-2018/agenda",
         "summary": "MyIRE presented a case study of blockchain technology combined with easy to use tools and its impact on research integrity. We also demonstrated how this approach empowers doctors to participate in research as part of their daily practice."
+      },
+      {
+        "name": "Python Powered Restful API Basics with Web2py",
+        "publisher": "DePy 2016",
+        "releaseDate": "2016-05-09",
+        "url": "https://www.youtube.com/watch?v=OJcvpO1cAEQ",
+        "summary": "Web2py's rapid prototyping capabilities can be leveraged to bootstrap quickly through initial prototypes into full production environments. RESTful API construction can be a powerful developer tool to modularizing applications for maintenance and optimization. Basics of RESTful API design and implementation will be covered with a case study tutorial. Concepts will be expanded upon to leverage built in web2py functionality for rapid prototyping."
+      },
+      {
+        "name": "What Is Open Source Science?",
+        "publisher": "DePy 2014",
+        "releaseDate": "2014-05-03",
+        "url": "https://www.youtube.com/watch?v=loUhFWTNFQk",
+        "summary": "Empowering individuals to be scientists by giving them a common set of tools"
       }
     ],
     "skills": [
@@ -242,7 +268,7 @@
       {
         "name": "Bastion Accessible Simple Private Cloud",
         "description": "Bash minimalist implementation of a boostrap script for an lxc based 'private cloud' of resources consisting of an lxc container hypervisor accessible via ssh from only a bastion ssh host, with metadata API and service mesh capabilities provided by Consul",
-        "highlights": [ 
+        "highlights": [
           "SSH Bastion Host",
           "Resource division via containerization (lxc)",
           "Service mesh ready"
@@ -251,12 +277,36 @@
           "iptables", "lxc", "Consul"
         ],
         "startDate": "2020",
-        "endDate": "", 
+        "endDate": "",
         "url": "https://github.com/myiremark/simple-private-cloud-lxc",
-        "roles": [ 
+        "roles": [
           "Admin", "Owner"
         ],
         "entity": "github.com/myiremark/simple-private-cloud-lxc",
+        "type": "application"
+      },
+      {
+        "name": "Terraform AWS web2py Simple Scaling Elastic Load Balancer (ELB)",
+        "description": "Proof of concept implementation of a sample terraform aws web2py application template that can be performant and modified easily by people new to both terraform and web2py. Demonstrates an introduction to the concepts of Infrastructure as Code and python/web2py application deployment and scaling. It is also designed to stay as much as possible within the free tier of AWS resources. Handles > 3K requests per sec for trivial endpoints at 99.99% success rate. Configurable for high availability.",
+        "highlights": [
+          "Virtual Private Cloud",
+          "Load Balancer",
+          "Managed RDS Postgres Instance",
+          "Managed RDS Database Migrations",
+          "EC 2 Instance Templating",
+          "Auto Scaling Group",
+          "CPU consumption based scaling"
+        ],
+        "keywords": [
+          "terraform", "aws", "docker", "web2py","load testing", "apache2-utils","ab"
+        ],
+        "startDate": "2020",
+        "endDate": "",
+        "url": "https://github.com/myiremark/terraform-aws-web2py-simple-scaling-elb",
+        "roles": [
+          "Admin", "Owner"
+        ],
+        "entity": "github.com/myiremark/terraform-aws-web2py-simple-scaling-elb",
         "type": "application"
       },
       {
