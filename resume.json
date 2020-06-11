@@ -287,7 +287,7 @@
       },
       {
         "name": "Terraform AWS web2py Simple Scaling Elastic Load Balancer (ELB)",
-        "description": "Proof of concept implementation of a sample terraform aws web2py application template that can be performant and modified easily by people new to both terraform and web2py. Demonstrates an introduction to the concepts of Infrastructure as Code and python/web2py application deployment and scaling. It is also designed to stay as much as possible within the free tier of AWS resources. Handles > 3K requests per sec for trivial endpoints at 99.99% success rate. Configurable for high availability.",
+        "description": "Proof of concept implementation of a sample terraform aws web2py application template that can be performant and modified easily by people new to both terraform and web2py. Demonstrates an introduction to the concepts of Infrastructure as Code and python/web2py application deployment and scaling. It is also designed to stay as much as possible within the free tier of AWS resources. Handles > 3K requests per sec for trivial endpoints with remote postgres database interaction at 99.99% success rate. Configurable for high availability.",
         "highlights": [
           "Virtual Private Cloud",
           "Load Balancer",
