@@ -1,384 +1,420 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-    "basics": {
-      "name": "Mark Graves, Jr",
-      "label": "Programmer",
-      "image": "",
-      "email": "hello(-at-)markgravesjr.com",
-      "phone": "",
-      "url": "https://markgravesjr.github.io",
-      "summary": "Mark began a  clinical  research  career  during high school  and  has  years  of  experience  designing and  delivering clinical and preclinical trials from both a scientific and technical perspective",
-      "location": {
-        "address": "",
-        "postalCode": "",
-        "city": "",
-        "countryCode": "US",
-        "region": "PST"
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Mark Graves, Jr",
+    "label": "Programmer",
+    "image": "",
+    "email": "hello(-at-)markgravesjr.com",
+    "phone": "",
+    "url": "https://markgravesjr.github.io",
+    "summary": "Mark began a  clinical  research  career  during high school  and  has  years  of  experience  designing and  delivering clinical and preclinical trials from both a scientific and technical perspective",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "US",
+      "region": "PST"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "myireinc",
+        "url": "https://twitter.com/myireinc"
       },
-      "profiles": [
-        {
-          "network": "Twitter",
-          "username": "myireinc",
-          "url": "https://twitter.com/myireinc"
-        },
-        {
-          "network": "LinkedIn",
-          "username": "markgravesjr",
-          "url": "https://linkedin.com/in/markgravesjr"
-        }
+      {
+        "network": "LinkedIn",
+        "username": "markgravesjr",
+        "url": "https://linkedin.com/in/markgravesjr"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "MyIRE, Inc",
+      "location": "Chicago, IL",
+      "description": "Making reproducible research a reality",
+      "position": "CEO / Founder / Lead Developer",
+      "url": "https://myire.com",
+      "startDate": "2015",
+      "endDate": "Present",
+      "highlights": [
+        "Architected, developed, and contracted secure HIPAA compliant private cloud. Procured hardware, contracted, and deployed for multiple enterprise biopharmaceutical clients.",
+        "Deployed tamper proof logging layer ",
+        "Deployed configuration management, continuous integration, continuous deployment system ",
+        "Managed centralized authentication / authorization system ",
+        "Designed and implemented scientific research API abstraction layer ",
+        "Designed and implemented web application  ",
+        "Designed and implemented cross platform mobile application ",
+        "Designed and implemented data lake and machine learning layer ",
+        "Led client sales team to first two enterprise clients "
       ]
     },
-    "work": [
-      {
-        "name": "MyIRE, Inc",
-        "location": "Chicago, IL",
-        "description": "Making reproducible research a reality",
-        "position": "CEO / Founder / Lead Developer",
-        "url": "https://myire.com",
-        "startDate": "2015",
-        "endDate": "Present",
-        "highlights": [
-          "Architected, developed, and contracted secure HIPAA compliant private cloud. Procured hardware, contracted, and deployed for multiple enterprise biopharmaceutical clients.",
-          "Deployed tamper proof logging layer ",
-          "Deployed configuration management, continuous integration, continuous deployment system ",
-          "Managed centralized authentication / authorization system ",
-          "Designed and implemented scientific research API abstraction layer ",
-          "Designed and implemented web application  ",
-          "Designed and implemented cross platform mobile application ",
-          "Designed and implemented data lake and machine learning layer ",
-          "Led client sales team to first two enterprise clients " 
-        ]
-      },
-      {
-        "name": "Northwestern University-Feinberg Medical School",
-        "location": "Chicago, IL",
-        "description": "Assisted in the implementation of protocols for data collection, storage, and analysis",
-        "position": "Research Coordinator",
-        "url": "https://cvmri.northwestern.edu/research/",
-        "startDate": "2013",
-        "endDate": "2014",
-        "highlights": []
-      }
-    ],
-    "volunteer": [
-      {
-        "organization": "WHO / COVID App Coalition",
-        "position": "Privacy and Compliance",
-        "url": "https://github.com/WorldHealthOrganization/app",
-        "startDate": "2020-03",
-        "endDate": "Present",
-        "summary": "Global movement of free coding clubs for young people.",
-        "highlights": [
-          "Balancing trust, privacy, and scalability for helping disseminate information intended for mass availability and the public good"
-        ]
-      },
-      {
-        "organization": "ChiPY - Python Scientific Interest Group",
-        "position": "Co Organizer",
-        "url": "https://chipy.org",
-        "startDate": "2015-12",
-        "endDate": "Present",
-        "summary": "Global movement of free coding clubs for young people.",
-        "highlights": [
-          "Helped bring together individuals with an interest in python and scientific computing"
-        ]
-      }
-    ],
-    "education": [
-      {
-        "institution": "Northwestern University",
-        "url": "https://www.northwestern.edu/",
-        "area": "Cognitive Neuroscience",
-        "studyType": "Bachelor",
-        "startDate": "2009",
-        "endDate": "2013",
-        "gpa": "3.9",
-        "courses": [
-        ]
-      },
-      {
-        "institution": "Northwestern University",
-        "url": "https://www.northwestern.edu/",
-        "area": "Medicine",
-        "studyType": "",
-        "startDate": "2013",
-        "endDate": "2016",
-        "gpa": "",
-        "courses": [
-        ]
-      }
-    ],
-    "awards": [
-      
-    ],
-    "publications": [
-        {
-          "name": "MyIRE in 90 Seconds explained by Founder Mark Graves",
-          "publisher": "MyIRE, Inc.",
-          "releaseDate": "2020-04-25",
-          "url": "https://www.youtube.com/watch?v=sEI-UADZjuk",
-          "summary": "Hear about the history of MyIRE's founder Mark Graves and the Big Picture of how together we can exponentially accelerate the rate of scientific progress and enable anyone in the world to participate by putting their brilliance and processing power into a network of reproducible research for others to safely use and build on."
-        },
-      {
-        "name": "MYR - The Reproducible Research Token",
-        "publisher": "National Academy of Sciences",
-        "releaseDate": "2020-03-24",
-        "url": "https://www.nas.org/reports/the-irreproducibility-crisis-of-modern-science",
-        "summary": "A reproducibility crisis afflicts a wide range of scientific and social-scientific disciplines, from epidemiology to social psychology. Many supposedly scientific results cannot be reproduced, because of improper use of statistics, arbitrary research techniques, lack of accountability, political groupthink, and a scientific culture biased toward producing positive results. The report includes a series of policy recommendations, scientific and political, for alleviating the reproducibility crisis."
-      },
-      {
-        "name": " What does astrophysics have to do with psychiatry?",
-        "publisher": "HDF Group",
-        "releaseDate": "2019-02-12",
-        "url": "https://www.hdfgroup.org/2019/01/what-does-astrophysics-have-to-do-with-psychiatry/",
-        "summary": "With MyIRE and HDF, everyone from a doctor in a small-town office to big data genetics researchers can work together to find new and powerful insights across data sets using a common set of tools – and do so in a repeatable way. And, because of HDF5, any user—whether large or small—is powered by the same technology used by CERN and NASA."
-      },
-      {
-        "name": "Building Blocks of Rapidly Iterable, Reproducible Clinical Trials",
-        "publisher": "FDA CBER Group",
-        "releaseDate": "2018-05-01",
-        "url": "https://myire.com/public/static/downloads/MyIRE_FDA_Presentation.pdf",
-        "summary": "Easy to use tools are revolutionizing medical innovation, but the 'telephone game of research software tools' has implications on participant privacy and scientific integrity. Increasing expectations for privacy and integrity can be achieved by harnessing the power of existing open technologies. MyIRE presented strategies for successful adoption of open technologies and case studies of building blocks for rapidly iterable, reproducible clinical trials. "
-      },
-      {
-        "name": "What is MyIRE? Data without Bias.",
-        "publisher": "Average Black Girl",
-        "releaseDate": "2018-03",
-        "url": "https://www.youtube.com/watch?v=NGj71CZhTg0",
-        "summary": "What is MyIRE? My Integrated Research Environment. Have you ever wanted to look at data without worrying about bias playing a factor?"
-      },
-      {
-        "name": "Blockchain in Clinical Trials Forum",
-        "publisher": "IEE",
-        "releaseDate": "2018-03",
-        "url": "https://blockchain.ieee.org/standards/clinicaltrialsforum-2018/agenda",
-        "summary": "MyIRE presented a case study of blockchain technology combined with easy to use tools and its impact on research integrity. We also demonstrated how this approach empowers doctors to participate in research as part of their daily practice."
-      },
-      {
-        "name": "Python Powered Restful API Basics with Web2py",
-        "publisher": "DePy 2016",
-        "releaseDate": "2016-05-09",
-        "url": "https://www.youtube.com/watch?v=OJcvpO1cAEQ",
-        "summary": "Web2py's rapid prototyping capabilities can be leveraged to bootstrap quickly through initial prototypes into full production environments. RESTful API construction can be a powerful developer tool to modularizing applications for maintenance and optimization. Basics of RESTful API design and implementation will be covered with a case study tutorial. Concepts will be expanded upon to leverage built in web2py functionality for rapid prototyping."
-      },
-      {
-        "name": "What Is Open Source Science?",
-        "publisher": "DePy 2014",
-        "releaseDate": "2014-05-03",
-        "url": "https://www.youtube.com/watch?v=loUhFWTNFQk",
-        "summary": "Empowering individuals to be scientists by giving them a common set of tools"
-      }
-    ],
-    "skills": [
-      {
-        "name": "Team / Project Management",
-        "level": "Competent",
-        "keywords": [
-         "Agile Project Management Methodologies", 
-         "Team Manager / Mentor",
+    {
+      "name": "Northwestern University-Feinberg Medical School",
+      "location": "Chicago, IL",
+      "description": "Assisted in the implementation of protocols for data collection, storage, and analysis",
+      "position": "Research Coordinator",
+      "url": "https://cvmri.northwestern.edu/research/",
+      "startDate": "2013",
+      "endDate": "2014",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "WHO / COVID App Coalition",
+      "position": "Privacy and Compliance",
+      "url": "https://github.com/WorldHealthOrganization/app",
+      "startDate": "2020-03",
+      "endDate": "Present",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Balancing trust, privacy, and scalability for helping disseminate information intended for mass availability and the public good"
+      ]
+    },
+    {
+      "organization": "ChiPY - Python Scientific Interest Group",
+      "position": "Co Organizer",
+      "url": "https://chipy.org",
+      "startDate": "2015-12",
+      "endDate": "Present",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Helped bring together individuals with an interest in python and scientific computing"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northwestern University",
+      "url": "https://www.northwestern.edu/",
+      "area": "Cognitive Neuroscience",
+      "studyType": "Bachelor",
+      "startDate": "2009",
+      "endDate": "2013",
+      "gpa": "3.9",
+      "courses": []
+    },
+    {
+      "institution": "Northwestern University",
+      "url": "https://www.northwestern.edu/",
+      "area": "Medicine",
+      "studyType": "",
+      "startDate": "2013",
+      "endDate": "2016",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "MyIRE in 90 Seconds explained by Founder Mark Graves",
+      "publisher": "MyIRE, Inc.",
+      "releaseDate": "2020-04-25",
+      "url": "https://www.youtube.com/watch?v=sEI-UADZjuk",
+      "summary": "Hear about the history of MyIRE's founder Mark Graves and the Big Picture of how together we can exponentially accelerate the rate of scientific progress and enable anyone in the world to participate by putting their brilliance and processing power into a network of reproducible research for others to safely use and build on."
+    },
+    {
+      "name": "MYR - The Reproducible Research Token",
+      "publisher": "National Academy of Sciences",
+      "releaseDate": "2020-03-24",
+      "url": "https://www.nas.org/reports/the-irreproducibility-crisis-of-modern-science",
+      "summary": "A reproducibility crisis afflicts a wide range of scientific and social-scientific disciplines, from epidemiology to social psychology. Many supposedly scientific results cannot be reproduced, because of improper use of statistics, arbitrary research techniques, lack of accountability, political groupthink, and a scientific culture biased toward producing positive results. The report includes a series of policy recommendations, scientific and political, for alleviating the reproducibility crisis."
+    },
+    {
+      "name": " What does astrophysics have to do with psychiatry?",
+      "publisher": "HDF Group",
+      "releaseDate": "2019-02-12",
+      "url": "https://www.hdfgroup.org/2019/01/what-does-astrophysics-have-to-do-with-psychiatry/",
+      "summary": "With MyIRE and HDF, everyone from a doctor in a small-town office to big data genetics researchers can work together to find new and powerful insights across data sets using a common set of tools – and do so in a repeatable way. And, because of HDF5, any user—whether large or small—is powered by the same technology used by CERN and NASA."
+    },
+    {
+      "name": "Building Blocks of Rapidly Iterable, Reproducible Clinical Trials",
+      "publisher": "FDA CBER Group",
+      "releaseDate": "2018-05-01",
+      "url": "https://myire.com/public/static/downloads/MyIRE_FDA_Presentation.pdf",
+      "summary": "Easy to use tools are revolutionizing medical innovation, but the 'telephone game of research software tools' has implications on participant privacy and scientific integrity. Increasing expectations for privacy and integrity can be achieved by harnessing the power of existing open technologies. MyIRE presented strategies for successful adoption of open technologies and case studies of building blocks for rapidly iterable, reproducible clinical trials. "
+    },
+    {
+      "name": "What is MyIRE? Data without Bias.",
+      "publisher": "Average Black Girl",
+      "releaseDate": "2018-03",
+      "url": "https://www.youtube.com/watch?v=NGj71CZhTg0",
+      "summary": "What is MyIRE? My Integrated Research Environment. Have you ever wanted to look at data without worrying about bias playing a factor?"
+    },
+    {
+      "name": "Blockchain in Clinical Trials Forum",
+      "publisher": "IEE",
+      "releaseDate": "2018-03",
+      "url": "https://blockchain.ieee.org/standards/clinicaltrialsforum-2018/agenda",
+      "summary": "MyIRE presented a case study of blockchain technology combined with easy to use tools and its impact on research integrity. We also demonstrated how this approach empowers doctors to participate in research as part of their daily practice."
+    },
+    {
+      "name": "Python Powered Restful API Basics with Web2py",
+      "publisher": "DePy 2016",
+      "releaseDate": "2016-05-09",
+      "url": "https://www.youtube.com/watch?v=OJcvpO1cAEQ",
+      "summary": "Web2py's rapid prototyping capabilities can be leveraged to bootstrap quickly through initial prototypes into full production environments. RESTful API construction can be a powerful developer tool to modularizing applications for maintenance and optimization. Basics of RESTful API design and implementation will be covered with a case study tutorial. Concepts will be expanded upon to leverage built in web2py functionality for rapid prototyping."
+    },
+    {
+      "name": "What Is Open Source Science?",
+      "publisher": "DePy 2014",
+      "releaseDate": "2014-05-03",
+      "url": "https://www.youtube.com/watch?v=loUhFWTNFQk",
+      "summary": "Empowering individuals to be scientists by giving them a common set of tools"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Team / Project Management",
+      "level": "Competent",
+      "keywords": [
+        "Agile Project Management Methodologies",
+        "Team Manager / Mentor",
         "Project Management Software Tools",
-        "Sprint Iteration Planning", 
-        "Iteration Retrospectives", 
-        "Daily Stand Ups", 
-        "Remote Team Management", 
-        "BDD/TDD Development", 
-        "Github, Gitea, Gitlab", "Jira", 
+        "Sprint Iteration Planning",
+        "Iteration Retrospectives",
+        "Daily Stand Ups",
+        "Remote Team Management",
+        "BDD/TDD Development",
+        "Github, Gitea, Gitlab",
+        "Jira",
         "Bitbucket / Atlassian products",
         "UI/UX development workflows"
-        ]
-      },
-      {
-        "name": "Software Engineering",
-        "level": "Competent",
-        "keywords": [
-          "BASH","SQL", "Python","JS/NodeJS/TypeScript", "PHP", "C/C++/C#", "Ruby", "Haskell", "HTML", "CSS" 
-        ]
-      },
-      {
-        "name": "Dev Ops",
-        "level": "Competent",
-        "keywords": [
-          "Ubuntu, Debian, CentOS administration",
-          "Syslog/Rsyslog/syslog ng configuration",
-          "Elasticsearch/Logstash/Kibana cluster administration",
-          "postgres, mysql, mariadb administration",
-          "Redis Cluster Administration",
-          "Firewall configuration (pftables/iptables,multicloud)",
-          "Loadbalancer / proxy configuration (HAProxy, Pound, Varnish)",
-          "Configuration management (Saltstack/Ansible)",
-          "Virtualization management (qemu-kvm, lxc,lxd)",
-          "Object and file storage management",
-          "CPU cluster scheduling",
-          "Jupyterhub deployment"
-        ]
-      },
-      {
-        "name": "Data Science / Machine Learning",
-        "level": "Competent",
-        "keywords": [
-          "Jupyter", "python", "r", "pandas", "pytorch", "tensorflow", "avro", "nifi", "hdf5", "opencv"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "Italian",
-        "fluency": "Basic"
-      },
-      {
-        "language": "Spanish",
-        "fluency": "Conversational"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Rapid Prototyping",
-        "keywords": [
-          "Hardware",
-          "Software"
-        ]
-      },
-      {
-        "name": "Cryptocurrency",
-        "keywords": [
-          "Wallets",
-          "Protocols"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "name": "George Cybulski, MD, Associate Professor of Neurological Surgery, Feinberg School of Medicine",
-        "reference": "MyIRE is a revolutionary platform that provides an innovative method to manage all the operational components of a research study allowing the research team to focus on the science."
-      },
-      {
-        "reference":"MyIRE is extremely innovative. I have never seen anything like MyIRE",
-        "name": "Ashish Atreja, MD, MPH, Associate Professor and Chief Innovation Officer, Medicine at Icahn School of Medicine at Mt. Sinai"
-      },
-      {
-        "reference": "MyIRE should be the NIH standard for clinical research",
-        "name":"Marat Fudim, MD, Clinical Research Fellow, Duke University"
-      }
-    ],
-    "projects": [
-      {
-        "name": "Bastion Accessible Simple Private Cloud",
-        "description": "Bash minimalist implementation of a boostrap script for an lxc based 'private cloud' of resources consisting of an lxc container hypervisor accessible via ssh from only a bastion ssh host, with metadata API and service mesh capabilities provided by Consul",
-        "highlights": [
-          "SSH Bastion Host",
-          "Resource division via containerization (lxc)",
-          "Service mesh ready"
-        ],
-        "keywords": [
-          "iptables", "lxc", "Consul"
-        ],
-        "startDate": "2020",
-        "endDate": "",
-        "url": "https://github.com/myiremark/simple-private-cloud-lxc",
-        "roles": [
-          "Admin", "Owner"
-        ],
-        "entity": "github.com/myiremark/simple-private-cloud-lxc",
-        "type": "application"
-      },
-      {
-        "name": "Terraform AWS web2py Simple Scaling Elastic Load Balancer (ELB)",
-        "description": "Proof of concept implementation of a sample terraform aws web2py application template that can be performant and modified easily by people new to both terraform and web2py. Demonstrates an introduction to the concepts of Infrastructure as Code and python/web2py application deployment and scaling. It is also designed to stay as much as possible within the free tier of AWS resources. Handles > 3K requests per sec for trivial endpoints with remote postgres database interaction at 99.99% success rate. Configurable for high availability.",
-        "highlights": [
-          "Virtual Private Cloud",
-          "Load Balancer",
-          "Managed RDS Postgres Instance",
-          "Managed RDS Database Migrations",
-          "EC 2 Instance Templating",
-          "Auto Scaling Group",
-          "CPU consumption based scaling"
-        ],
-        "keywords": [
-          "terraform", "aws", "docker", "web2py","load testing", "apache2-utils","ab"
-        ],
-        "startDate": "2020",
-        "endDate": "",
-        "url": "https://github.com/myiremark/terraform-aws-web2py-simple-scaling-elb",
-        "roles": [
-          "Admin", "Owner"
-        ],
-        "entity": "github.com/myiremark/terraform-aws-web2py-simple-scaling-elb",
-        "type": "application"
-      },
-      {
-        "name": "Simple GPG Encrypted Remote Git Repos",
-        "description": "How to store code remotely, encrypted, and still collaborate using git",
-        "highlights": [ 
-          "GPG Key Creation",
-          "Encrypted centralized git sharing",
-          "Assumes an untrusted hosting environment"
-        ],
-        "keywords": [
-          "gpg", "git", "ssh"
-        ],
-        "startDate": "2020",
-        "endDate": "", 
-        "url": "https://github.com/myiremark/gpg-encrypted-git-remotes",
-        "roles": [ 
-          "Admin", "Owner"
-        ],
-        "entity": "github.com/myiremark/gpg-encrypted-git-remotes",
-        "type": "application"
-      },
-      {
-        "name": "JSONResume TypeScript React Serializer",
-        "description": "TypeScript React implementation of JSONResume format inspired by the kendall theme",
-        "highlights": [ 
-          "JSONResume format automatically generated from example schema",
-          "Dynamic remote data loading",
-          "Standards enforced"
-        ],
-        "keywords": [
-          "Google TypeScript Style", "TypeScript", "React", "Bootstrap" 
-        ],
-        "startDate": "2020",
-        "endDate": "", 
-        "url": "https://github.com/myiremark/jsonresume-typescript-react-serializer",
-        "roles": [ 
-          "Admin", "Owner"
-        ],
-        "entity": "github.com/myiremark/jsonresume-typescript-react-serializer",
-        "type": "application"
-      },
-      {
-        "name": "web2py RESTful OpenAPI Crossplatform React Ionic App",
-        "description": "Typescript React Ionic cross platform app that uses an openapi / Swagger client which is autogenerated from pyDAL and served via web2py.  It uses elasticsearch for indexing and searchkit for faceted search UI.  Forms are generated from jsonschema7 via react-json-schema-form.",
-        "highlights": [
-          "pyDAL Database Abstraction Layer",
-          "web2py Autogenerated RESTful API",
-          "Database Autogenerated Swagger Documentation",
-          "Typescript Swagger Generated axios API Client",
-          "JWT token based auth",
-          "JSONSchema Forms",
-          "Elasticsearch powered indexing",
-          "SearchKit faceted search",
-        ],
-        "keywords": [
-          "pyDAL", "web2py", "openAPI/Swagger", "elasticsearch","json-schema-form"
-        ],
-        "startDate": "2020",
-        "endDate": "",
-        "url": "https://github.com/myiremark/web2py-restful-openapi-crossplatform-app",
-        "roles": [
-          "Admin", "Owner"
-        ],
-        "entity": "github.com/myiremark/web2py-restful-openapi-crossplatform-app",
-        "type": "application"
-      }
-    ],
-    "meta": {
-      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-      "version": "v1.0.0",
-      "lastModified": "2017-12-24T15:53:00"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Competent",
+      "keywords": [
+        "BASH",
+        "SQL",
+        "Python",
+        "JS/NodeJS/TypeScript",
+        "PHP",
+        "C/C++/C#",
+        "Ruby",
+        "Haskell",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Dev Ops",
+      "level": "Competent",
+      "keywords": [
+        "Ubuntu, Debian, CentOS administration",
+        "Syslog/Rsyslog/syslog ng configuration",
+        "Elasticsearch/Logstash/Kibana cluster administration",
+        "postgres, mysql, mariadb administration",
+        "Redis Cluster Administration",
+        "Firewall configuration (pftables/iptables,multicloud)",
+        "Loadbalancer / proxy configuration (HAProxy, Pound, Varnish)",
+        "Configuration management (Saltstack/Ansible)",
+        "Virtualization management (qemu-kvm, lxc,lxd)",
+        "Object and file storage management",
+        "CPU cluster scheduling",
+        "Jupyterhub deployment"
+      ]
+    },
+    {
+      "name": "Data Science / Machine Learning",
+      "level": "Competent",
+      "keywords": [
+        "Jupyter",
+        "python",
+        "r",
+        "pandas",
+        "pytorch",
+        "tensorflow",
+        "avro",
+        "nifi",
+        "hdf5",
+        "opencv"
+      ]
     }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Rapid Prototyping",
+      "keywords": [
+        "Hardware",
+        "Software"
+      ]
+    },
+    {
+      "name": "Cryptocurrency",
+      "keywords": [
+        "Wallets",
+        "Protocols"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "George Cybulski, MD, Associate Professor of Neurological Surgery, Feinberg School of Medicine",
+      "reference": "MyIRE is a revolutionary platform that provides an innovative method to manage all the operational components of a research study allowing the research team to focus on the science."
+    },
+    {
+      "reference": "MyIRE is extremely innovative. I have never seen anything like MyIRE",
+      "name": "Ashish Atreja, MD, MPH, Associate Professor and Chief Innovation Officer, Medicine at Icahn School of Medicine at Mt. Sinai"
+    },
+    {
+      "reference": "MyIRE should be the NIH standard for clinical research",
+      "name": "Marat Fudim, MD, Clinical Research Fellow, Duke University"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bastion Accessible Simple Private Cloud",
+      "description": "Bash minimalist implementation of a boostrap script for an lxc based 'private cloud' of resources consisting of an lxc container hypervisor accessible via ssh from only a bastion ssh host, with metadata API and service mesh capabilities provided by Consul",
+      "highlights": [
+        "SSH Bastion Host",
+        "Resource division via containerization (lxc)",
+        "Service mesh ready"
+      ],
+      "keywords": [
+        "iptables",
+        "lxc",
+        "Consul"
+      ],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/myiremark/simple-private-cloud-lxc",
+      "roles": [
+        "Admin",
+        "Owner"
+      ],
+      "entity": "github.com/myiremark/simple-private-cloud-lxc",
+      "type": "application"
+    },
+    {
+      "name": "Terraform AWS web2py Simple Scaling Elastic Load Balancer (ELB)",
+      "description": "Proof of concept implementation of a sample terraform aws web2py application template that can be performant and modified easily by people new to both terraform and web2py. Demonstrates an introduction to the concepts of Infrastructure as Code and python/web2py application deployment and scaling. It is also designed to stay as much as possible within the free tier of AWS resources. Handles > 3K requests per sec for trivial endpoints with remote postgres database interaction at 99.99% success rate. Configurable for high availability.",
+      "highlights": [
+        "Virtual Private Cloud",
+        "Load Balancer",
+        "Managed RDS Postgres Instance",
+        "Managed RDS Database Migrations",
+        "EC 2 Instance Templating",
+        "Auto Scaling Group",
+        "CPU consumption based scaling"
+      ],
+      "keywords": [
+        "terraform",
+        "aws",
+        "docker",
+        "web2py",
+        "load testing",
+        "apache2-utils",
+        "ab"
+      ],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/myiremark/terraform-aws-web2py-simple-scaling-elb",
+      "roles": [
+        "Admin",
+        "Owner"
+      ],
+      "entity": "github.com/myiremark/terraform-aws-web2py-simple-scaling-elb",
+      "type": "application"
+    },
+    {
+      "name": "Simple GPG Encrypted Remote Git Repos",
+      "description": "How to store code remotely, encrypted, and still collaborate using git",
+      "highlights": [
+        "GPG Key Creation",
+        "Encrypted centralized git sharing",
+        "Assumes an untrusted hosting environment"
+      ],
+      "keywords": [
+        "gpg",
+        "git",
+        "ssh"
+      ],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/myiremark/gpg-encrypted-git-remotes",
+      "roles": [
+        "Admin",
+        "Owner"
+      ],
+      "entity": "github.com/myiremark/gpg-encrypted-git-remotes",
+      "type": "application"
+    },
+    {
+      "name": "JSONResume TypeScript React Serializer",
+      "description": "TypeScript React implementation of JSONResume format inspired by the kendall theme",
+      "highlights": [
+        "JSONResume format automatically generated from example schema",
+        "Dynamic remote data loading",
+        "Standards enforced"
+      ],
+      "keywords": [
+        "Google TypeScript Style",
+        "TypeScript",
+        "React",
+        "Bootstrap"
+      ],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/myiremark/jsonresume-typescript-react-serializer",
+      "roles": [
+        "Admin",
+        "Owner"
+      ],
+      "entity": "github.com/myiremark/jsonresume-typescript-react-serializer",
+      "type": "application"
+    },
+    {
+      "name": "web2py RESTful OpenAPI Crossplatform React Ionic App",
+      "description": "Typescript React Ionic cross platform app that uses an openapi / Swagger client which is autogenerated from pyDAL and served via web2py.  It uses elasticsearch for indexing and searchkit for faceted search UI.  Forms are generated from jsonschema7 via react-json-schema-form.",
+      "highlights": [
+        "pyDAL Database Abstraction Layer",
+        "web2py Autogenerated RESTful API",
+        "Database Autogenerated Swagger Documentation",
+        "Typescript Swagger Generated axios API Client",
+        "JWT token based auth",
+        "JSONSchema Forms",
+        "Elasticsearch powered indexing",
+        "SearchKit faceted search",
+      ],
+      "keywords": [
+        "pyDAL",
+        "web2py",
+        "openAPI/Swagger",
+        "elasticsearch",
+        "json-schema-form"
+      ],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/myiremark/web2py-restful-openapi-crossplatform-app",
+      "roles": [
+        "Admin",
+        "Owner"
+      ],
+      "entity": "github.com/myiremark/web2py-restful-openapi-crossplatform-app",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
   }
-  
+}
