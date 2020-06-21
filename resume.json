@@ -123,11 +123,18 @@
       "summary": "A reproducibility crisis afflicts a wide range of scientific and social-scientific disciplines, from epidemiology to social psychology. Many supposedly scientific results cannot be reproduced, because of improper use of statistics, arbitrary research techniques, lack of accountability, political groupthink, and a scientific culture biased toward producing positive results. The report includes a series of policy recommendations, scientific and political, for alleviating the reproducibility crisis."
     },
     {
-      "name": " What does astrophysics have to do with psychiatry?",
+      "name": "What does astrophysics have to do with psychiatry?",
       "publisher": "HDF Group",
       "releaseDate": "2019-02-12",
       "url": "https://www.hdfgroup.org/2019/01/what-does-astrophysics-have-to-do-with-psychiatry/",
       "summary": "With MyIRE and HDF, everyone from a doctor in a small-town office to big data genetics researchers can work together to find new and powerful insights across data sets using a common set of tools – and do so in a repeatable way. And, because of HDF5, any user—whether large or small—is powered by the same technology used by CERN and NASA."
+    },
+    {
+      "name": "Meet Mark Graves, Jr of MyIRE in Pilsen",
+      "publisher": "Voyage Chicago",
+      "releaseDate": "2018-09-04",
+      "url": "http://voyagechicago.com/interview/meet-mark-graves-jr-myire-pilsen/",
+      "summary": "An introduction to Mark Graves, Jr, a brief walk through of his story – how MyIRE started and how it got to where it is today."
     },
     {
       "name": "Building Blocks of Rapidly Iterable, Reproducible Clinical Trials",
