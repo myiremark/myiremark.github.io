@@ -25,6 +25,11 @@
         "network": "LinkedIn",
         "username": "markgravesjr",
         "url": "https://linkedin.com/in/markgravesjr"
+      },
+      {
+        "network": "orcid",
+        "username": "0000-0003-3486-8193",
+        "url": "https://orcid.org/0000-0003-3486-8193"
       }
     ]
   },
